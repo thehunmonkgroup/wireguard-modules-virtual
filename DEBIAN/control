@@ -1,0 +1,12 @@
+Package: wireguard-modules-virtual
+Version: 1.0.0
+Section: misc
+Priority: optional
+Architecture: all
+Provides: wireguard-modules (= 0.0.20191219)
+Depends:
+Maintainer: Chad Phillips <noreply@example.com>
+Description: Virtual package providing wireguard-modules
+ This package provides a virtual wireguard-modules package
+ without installing any actual files. It is useful for
+ satisfying dependencies of other packages.
